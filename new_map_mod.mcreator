@@ -1,0 +1,276 @@
+{
+  "mod_elements": [
+    {
+      "name": "GmcPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/procedures/GmcProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/commands/command procedures"
+    },
+    {
+      "name": "Gmc",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/command/GmcCommand.java"
+        ]
+      },
+      "path": "~/commands/command"
+    },
+    {
+      "name": "GmsPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gms_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/procedures/GmsProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/commands/command procedures"
+    },
+    {
+      "name": "Gms",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/command/GmsCommand.java"
+        ]
+      },
+      "path": "~/commands/command"
+    },
+    {
+      "name": "Gma",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/procedures/GmaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/commands/command procedures"
+    },
+    {
+      "name": "GmaC",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gma_c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/command/GmaCCommand.java"
+        ]
+      },
+      "path": "~/commands/command"
+    },
+    {
+      "name": "GmspPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmsp_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/procedures/GmspProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/commands/command procedures"
+    },
+    {
+      "name": "HealPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/procedures/HealProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/commands/command procedures"
+    },
+    {
+      "name": "Heal",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/command/HealCommand.java"
+        ]
+      },
+      "path": "~/commands/command"
+    },
+    {
+      "name": "Gmsp",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmsp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/command/GmspCommand.java"
+        ]
+      },
+      "path": "~/commands/command"
+    },
+    {
+      "name": "GcPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gc_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/procedures/GcProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/commands/command procedures"
+    },
+    {
+      "name": "Gc",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/command/GcCommand.java"
+        ]
+      },
+      "path": "~/commands/command"
+    },
+    {
+      "name": "Nightvision",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightvision",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/procedures/NightvisionProcedure.java"
+        ]
+      },
+      "path": "~/commands/command procedures"
+    },
+    {
+      "name": "N",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "n",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newmapmod/command/NCommand.java"
+        ]
+      },
+      "path": "~/commands/command"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/newmapmod/NewMapModMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "commands",
+        "children": [
+          {
+            "name": "command",
+            "children": []
+          },
+          {
+            "name": "command procedures",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "new_map_mod",
+    "modName": "new map mod",
+    "version": "1.0.0",
+    "author": "Ethan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.newmapmod"
+  },
+  "mcreatorVersion": 202600233518
+}
