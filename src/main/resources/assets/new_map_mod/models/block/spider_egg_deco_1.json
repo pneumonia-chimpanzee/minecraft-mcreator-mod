@@ -1,0 +1,9 @@
+{
+  "parent": "new_map_mod:custom/spidereggdeco1",
+  "textures": {
+    "all": "new_map_mod:block/spidereggdeco1",
+    "particle": "new_map_mod:block/spidereggdeco1",
+    "0": "new_map_mod:block/spidereggdeco1"
+  },
+  "render_type": "cutout_mipped"
+}

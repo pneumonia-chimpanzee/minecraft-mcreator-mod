@@ -223,6 +223,32 @@
         ]
       },
       "path": "~/commands/command"
+    },
+    {
+      "name": "ModdedTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modded_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SpiderEggDeco1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_egg_deco_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_map_mod/models/item/spider_egg_deco_1.json",
+          "src/main/java/net/mcreator/newmapmod/block/SpiderEggDeco1Block.java",
+          "src/main/resources/assets/new_map_mod/models/block/spider_egg_deco_1.json",
+          "src/main/resources/data/new_map_mod/loot_table/blocks/spider_egg_deco_1.json",
+          "src/main/resources/assets/new_map_mod/blockstates/spider_egg_deco_1.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -230,13 +256,19 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.new_map_mod.modded_tab": "Map Mod Resources",
+      "block.new_map_mod.spider_egg_deco_1": "Spider Egg Deco 1"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/newmapmod/init/NewMapModModBlocks.java",
+      "src/main/java/net/mcreator/newmapmod/init/NewMapModModItems.java",
       "src/main/java/net/mcreator/newmapmod/NewMapModMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/newmapmod/init/NewMapModModTabs.java"
     ]
   },
   "foldersRoot": {

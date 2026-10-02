@@ -25,6 +25,10 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.newmapmod.init.NewMapModModTabs;
+import net.mcreator.newmapmod.init.NewMapModModItems;
+import net.mcreator.newmapmod.init.NewMapModModBlocks;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Queue;
 import java.util.PriorityQueue;
@@ -45,6 +49,9 @@ public class NewMapModMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		NewMapModModBlocks.REGISTRY.register(modEventBus);
+		NewMapModModItems.REGISTRY.register(modEventBus);
+		NewMapModModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

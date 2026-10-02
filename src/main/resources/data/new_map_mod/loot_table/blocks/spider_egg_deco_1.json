@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "new_map_mod:blocks/spider_egg_deco_1",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "new_map_mod:spider_egg_deco_1"
+        }
+      ]
+    }
+  ]
+}
